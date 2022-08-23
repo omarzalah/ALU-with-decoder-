@@ -1,0 +1,2 @@
+# ALU-with-decoder-
+ALU_TOP is the fundamental building block of the processor, which is responsible for carrying out different functions: - - Arithmetic functions through ARITHMETIC_UNIT block. - Logic functions through LOGIC_UNIT block. - Shift functions through SHIFT _UNIT block. - Comparison functions through CMP_UNIT block. And Decoder Unit responsibles for enable which Function to operate according to the highest Most significant 2-bit of the ALU_FUNC control bus ALU_FUNC [3:2].
